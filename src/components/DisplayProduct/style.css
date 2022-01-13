@@ -1,0 +1,36 @@
+li {
+  max-width: 350px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  word-wrap: break-word;
+  padding: 10px;
+}
+li .productImg {
+  height: 444px;
+}
+li .productImg img {
+  width: 190px;
+  object-fit: contain;
+}
+li button {
+  background-color: #8bc34a;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+h2 {
+  margin: 10px 0px;
+}
+h2 span {
+  color: #8bc34a;
+}
+
+@media (max-width: 410px) {
+  li {
+    max-width: 320px;
+  }
+}
